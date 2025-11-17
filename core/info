@@ -1,0 +1,373 @@
+Excellent 👌 Tu veux donc une **liste bilingue (français / anglais)** de tags utilisables comme filtres dans ton modèle `Tag`.
+Voici une **grande liste FR/EN**, bien organisée et prête à être utilisée dans ton app Django (ou à insérer dans ta base).
+
+---
+
+## 🌴 **Origine / Climat — Origin / Climate**
+
+* Tropical / Tropical
+* Subtropical / Subtropical
+* Méditerranéen / Mediterranean
+* Tempéré / Temperate
+* Continental / Continental
+* Polaire / Polar
+* Exotique / Exotic
+* Sauvage / Wild
+* Montagne / Mountain
+* Marécageux / Swamp
+* Côtier / Coastal
+* Désertique / Desert
+* Forêt tropicale / Rainforest
+* Savane / Savannah
+
+---
+
+## 🍋 **Type de fruit / Famille — Type / Family**
+
+* Agrume / Citrus
+* Baie / Berry
+* Noyau / Stone fruit
+* Pomme (pome) / Pome
+* Melon / Melon
+* Fruit sec / Dried fruit
+* Fruit à coque / Nut
+* Fruit à pulpe / Fleshy fruit
+* Fruit rouge / Red fruit
+* Fruit à jus / Juicy fruit
+* Fruit à chair ferme / Firm flesh
+* Fruit à chair tendre / Soft flesh
+* Légume-fruit / Fruit vegetable (e.g. tomato, avocado)
+
+---
+
+## 🍎 **Goût / Texture — Taste / Texture**
+
+* Sucré / Sweet
+* Très sucré / Very sweet
+* Doux / Mild
+* Acidulé / Tangy
+* Acide / Sour
+* Amer / Bitter
+* Rafraîchissant / Refreshing
+* Épicé / Spicy
+* Croquant / Crunchy
+* Fondant / Melty
+* Juteux / Juicy
+* Sec / Dry
+* Piquant / Sharp
+* Astringent / Astringent
+
+---
+
+## 🍊 **Saison / Harvest — Season / Harvest**
+
+* Hiver / Winter
+* Été / Summer
+* Automne / Autumn
+* Printemps / Spring
+* Hors saison / Off-season
+* Toute saison / All seasons
+* Saison des pluies / Rainy season
+* Saison sèche / Dry season
+
+---
+
+## 🍃 **Bienfaits / Nutrition — Benefits / Nutrition**
+
+* Riche en vitamine C / Rich in vitamin C
+* Riche en fibres / High in fiber
+* Antioxydant / Antioxidant
+* Énergisant / Energizing
+* Détoxifiant / Detoxifying
+* Hydratant / Hydrating
+* Fortifiant / Strengthening
+* Riche en fer / Iron-rich
+* Riche en calcium / Calcium-rich
+* Riche en potassium / Potassium-rich
+* Faible en sucre / Low sugar
+* Riche en sucres naturels / Naturally sweet
+* Digestif / Digestive
+* Anti-inflammatoire / Anti-inflammatory
+* Boost immunitaire / Immune booster
+* Brûle-graisse / Fat-burning
+* Bon pour la peau / Good for skin
+* Bon pour le cœur / Heart-healthy
+
+---
+
+## 🍰 **Utilisation / Cuisine — Usage / Cooking**
+
+* À jus / For juice
+* À confiture / For jam
+* À tarte / For pie
+* À compote / For compote
+* À dessert / For dessert
+* À salade / For salad
+* À smoothie / For smoothie
+* À sirop / For syrup
+* À cocktail / For cocktail
+* À cuisson / For cooking
+* À pâtisserie / For pastry
+* À garniture / For topping
+* À gelée / For jelly
+* À vin ou liqueur / For wine or liquor
+
+---
+
+## 🌍 **Origine géographique — Geographic origin**
+
+* Afrique / Africa
+* Asie / Asia
+* Europe / Europe
+* Amérique du Sud / South America
+* Amérique du Nord / North America
+* Océanie / Oceania
+* Caraïbes / Caribbean
+* Moyen-Orient / Middle East
+* Afrique de l’Ouest / West Africa
+* Afrique centrale / Central Africa
+* Madagascar / Madagascar
+
+---
+
+## 🧺 **Autres / Divers — Other / Miscellaneous**
+
+* Bio / Organic
+* Importé / Imported
+* Local / Local
+* Rare / Rare
+* Commun / Common
+* Sauvage / Wild
+* De saison / Seasonal
+* Non traité / Untreated
+* Exotique / Exotic
+* Exporté / Exported
+* Produit artisanal / Handmade
+* Haute qualité / Premium
+* Populaire / Popular
+* Traditionnel / Traditional
+
+
+
+=======================================================================
+Excellent 👌 tu veux donc une **liste de fruits associés à des tags** (comme “tropical”, “été”, “sucré”, etc.), pour remplir ta base et tester tes relations `Fruit`, `Color`, `Tag` et `Filter`.
+
+Voici une **liste claire et réaliste** avec le fruit, la couleur et les principaux tags (en **français / anglais**).
+Tu pourras facilement la transformer en code pour Django ensuite.
+
+---
+
+## 🍍 **1. Ananas / Pineapple**
+
+* **Couleur** : Jaune
+* **Tags** :
+
+  * Tropical / Tropical
+  * Été / Summer
+  * Sucré / Sweet
+  * Juteux / Juicy
+  * Exotique / Exotic
+  * À jus / For juice
+  * Riche en vitamine C / Rich in vitamin C
+
+---
+
+## 🍊 **2. Orange**
+
+* **Couleur** : Orange
+* **Tags** :
+
+  * Agrume / Citrus
+  * Hiver / Winter
+  * Rafraîchissant / Refreshing
+  * Sucré / Sweet
+  * Acidulé / Tangy
+  * Riche en vitamine C / Rich in vitamin C
+  * À jus / For juice
+
+---
+
+## 🍌 **3. Banane / Banana**
+
+* **Couleur** : Jaune
+* **Tags** :
+
+  * Tropical / Tropical
+  * Toute saison / All seasons
+  * Énergisant / Energizing
+  * Doux / Mild
+  * À dessert / For dessert
+  * À smoothie / For smoothie
+  * Riche en potassium / Potassium-rich
+
+---
+
+## 🍓 **4. Fraise / Strawberry**
+
+* **Couleur** : Rouge
+* **Tags** :
+
+  * Été / Summer
+  * Baie / Berry
+  * Sucré / Sweet
+  * Rafraîchissant / Refreshing
+  * Antioxydant / Antioxidant
+  * À dessert / For dessert
+  * À confiture / For jam
+
+---
+
+## 🍎 **5. Pomme / Apple**
+
+* **Couleur** : Rouge / Verte / Jaune
+* **Tags** :
+
+  * Automne / Autumn
+  * Pomme / Pome
+  * Croquant / Crunchy
+  * Rafraîchissant / Refreshing
+  * À tarte / For pie
+  * À jus / For juice
+  * Riche en fibres / High in fiber
+
+---
+
+## 🍋 **6. Citron / Lemon**
+
+* **Couleur** : Jaune
+* **Tags** :
+
+  * Agrume / Citrus
+  * Hiver / Winter
+  * Acide / Sour
+  * Détoxifiant / Detoxifying
+  * Riche en vitamine C / Rich in vitamin C
+  * À jus / For juice
+  * À sirop / For syrup
+
+---
+
+## 🍉 **7. Pastèque / Watermelon**
+
+* **Couleur** : Rouge / Verte
+* **Tags** :
+
+  * Été / Summer
+  * Tropical / Tropical
+  * Rafraîchissant / Refreshing
+  * Juteux / Juicy
+  * Hydratant / Hydrating
+  * À dessert / For dessert
+
+---
+
+## 🥭 **8. Mangue / Mango**
+
+* **Couleur** : Orange / Jaune
+* **Tags** :
+
+  * Tropical / Tropical
+  * Exotique / Exotic
+  * Sucré / Sweet
+  * Juteux / Juicy
+  * À smoothie / For smoothie
+  * À dessert / For dessert
+  * Riche en vitamine C / Rich in vitamin C
+
+---
+
+## 🍒 **9. Cerise / Cherry**
+
+* **Couleur** : Rouge
+* **Tags** :
+
+  * Été / Summer
+  * Baie / Berry
+  * Sucré / Sweet
+  * Antioxydant / Antioxidant
+  * À dessert / For dessert
+  * À confiture / For jam
+
+---
+
+## 🍇 **10. Raisin / Grape**
+
+* **Couleur** : Violet / Vert
+* **Tags** :
+
+  * Automne / Autumn
+  * Baie / Berry
+  * Sucré / Sweet
+  * À jus / For juice
+  * À vin ou liqueur / For wine or liquor
+  * Antioxydant / Antioxidant
+
+---
+
+## 🍑 **11. Pêche / Peach**
+
+* **Couleur** : Orange / Rose
+* **Tags** :
+
+  * Été / Summer
+  * Noyau / Stone fruit
+  * Sucré / Sweet
+  * Juteux / Juicy
+  * À dessert / For dessert
+  * À tarte / For pie
+
+---
+
+## 🥥 **12. Noix de coco / Coconut**
+
+* **Couleur** : Marron / Blanc
+* **Tags** :
+
+  * Tropical / Tropical
+  * Exotique / Exotic
+  * Fruit à coque / Nut
+  * Énergisant / Energizing
+  * Hydratant / Hydrating
+  * À dessert / For dessert
+
+---
+
+## 🍈 **13. Melon / Melon**
+
+* **Couleur** : Orange / Vert
+* **Tags** :
+
+  * Été / Summer
+  * Rafraîchissant / Refreshing
+  * Juteux / Juicy
+  * Sucré / Sweet
+  * Hydratant / Hydrating
+
+---
+
+## 🍐 **14. Poire / Pear**
+
+* **Couleur** : Verte / Jaune
+* **Tags** :
+
+  * Automne / Autumn
+  * Pomme / Pome
+  * Sucré / Sweet
+  * Croquant / Crunchy
+  * À dessert / For dessert
+  * À confiture / For jam
+
+---
+
+## 🍅 **15. Tomate / Tomato**
+
+* **Couleur** : Rouge
+* **Tags** :
+
+  * Légume-fruit / Fruit vegetable
+  * Été / Summer
+  * Acide / Sour
+  * Savoureux / Flavorful
+  * À salade / For salad
+  * À cuisson / For cooking
+

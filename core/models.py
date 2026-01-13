@@ -4,6 +4,10 @@ class Fruit(models.Model):
 
     name = models.CharField(
         max_length=20,
+        unique=True,
+        null=False,
+        blank=False,
+        help_text="Nom du fruit"
     )
     color = models.ForeignKey(
         "Color",
@@ -18,6 +22,9 @@ class Fruit(models.Model):
     'Tag',
     through="Filter",
     )
+    
+    image = models.ImageField( upload_to="fruits/",max_length=100,null=True,blank=True)
+    
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField( auto_now=True)
 
@@ -27,6 +34,12 @@ class Color(models.Model):
         null=False,
         max_length=20,
         help_text="couleur du fruits",
+    )
+    hexCode = models.CharField(
+        max_length=7,
+        help_text="Code hexadécimal de la couleur",
+        null=True,
+        blank=True
     )
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField( auto_now=True)

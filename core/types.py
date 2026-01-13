@@ -1,19 +1,20 @@
+import datetime
 import strawberry
 import strawberry_django
 from strawberry import auto
 from typing import Optional,Any
-
 from . import models
-
+from strawberry.file_uploads import Upload
 
     
 @strawberry_django.type(models.Tag)
 class Tag:
     id:auto
     name:auto
-    fruit:list['Fruit']
-    created_at:auto
-    updated_at:auto
+    fruit: Optional[list['Fruit']] = None
+    created_at: Optional[datetime.datetime] = None
+    updated_at: Optional[datetime.datetime] = None
+
     
 @strawberry_django.type(models.Fruit)
 class Fruit:
@@ -21,14 +22,26 @@ class Fruit:
     name: auto
     color: 'Color'
     tags:list[Tag]
-    nb_tags:int
+    nbTags:Optional[int]
     created_at:auto
     updated_at:auto
+    description:Optional[str]=None
+    image : auto
+    #image_url: auto   # ← lecture
+
+    # @strawberry.field
+    # def image_url(self) -> Optional[str]:
+    #     return self.image.url if self.image else None
+    
+    @strawberry.field
+    def nbTags(self) -> int:
+        return self.tags.count()
 
 @strawberry_django.type(models.Color)
 class Color:
     id: auto
     name: auto
+    hexCode:Optional[str]=None
     fruits: list[Fruit]
     created_at:auto
     updated_at:auto
